@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TS Discord Bot Documentation</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <h1>TS Bot</h1>
+                </div>
+                <nav id="navbar">
+                    <ul>
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#commands">Commands</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </header>
+
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>TS Discord Bot</h1>
+                    <p>
+                        A powerful bot with moderation, fun, economy, and more
+                        features
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="#commands" class="btn btn-primary"
+                            >View Commands</a
+                        >
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img
+                        src="https://cdn.discordapp.com/banners/1336659198683123735/505e54145210c3f0405b4b97768b7978.webp?size=1024"
+                        alt="Discord Bot Illustration"
+                    />
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2 class="section-title">Features</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Moderation</h3>
+                        <p>
+                            Powerful tools to help manage your server and keep
+                            it safe
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-smile-beam"></i>
+                        </div>
+                        <h3>Fun Commands</h3>
+                        <p>
+                            Entertaining commands to keep your community engaged
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <h3>Economy System</h3>
+                        <p>
+                            Complete economy system with work, shop, and games
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Leveling</h3>
+                        <p>Reward active users with levels and experience</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-ticket-alt"></i>
+                        </div>
+                        <h3>Tickets</h3>
+                        <p>Support ticket system for server management</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-tag"></i>
+                        </div>
+                        <h3>Reaction Roles</h3>
+                        <p>Self-assignable roles through reactions</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="commands" class="commands">
+            <div class="container">
+                <h2 class="section-title">Commands</h2>
+                <div class="command-categories">
+                    <button class="category-btn active" data-category="all">
+                        All
+                    </button>
+                    <button class="category-btn" data-category="moderation">
+                        Moderation
+                    </button>
+                    <button class="category-btn" data-category="fun">
+                        Fun
+                    </button>
+                    <button class="category-btn" data-category="economy">
+                        Economy
+                    </button>
+                    <button class="category-btn" data-category="utility">
+                        Utility
+                    </button>
+                    <button class="category-btn" data-category="music">
+                        Music
+                    </button>
+                    <button class="category-btn" data-category="leveling">
+                        Leveling
+                    </button>
+                </div>
+
+                <div class="search-box">
+                    <input
+                        type="text"
+                        id="commandSearch"
+                        placeholder="Search commands..."
+                    />
+                    <i class="fas fa-search"></i>
+                </div>
+
+                <div class="command-list"></div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            TS Discord Bot is a feature-rich bot designed to
+                            enhance your Discord server experience. With a wide
+                            range of commands and features, it provides
+                            everything you need for moderation, fun, economy,
+                            and more.
+                        </p>
+                        <p>
+                            The bot is actively maintained and updated regularly
+                            with new features.
+                        </p>
+                        <div class="credits">
+                            <h3>Credits</h3>
+                            <ul>
+                                <li>
+                                    <img
+                                        src="https://flagcdn.com/16x12/ru.png"
+                                        alt="RU"
+                                        class="flag-icon"
+                                    />
+                                    art3m4ik3 - Ticket System, AI, Moderation,
+                                    Counting, Logs, Economy, Leveling, Music,
+                                    Roles For Boosters, Report System, etc.
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://flagcdn.com/16x12/nl.png"
+                                        alt="NL"
+                                        class="flag-icon"
+                                    />/<img
+                                        src="https://flagcdn.com/16x12/tr.png"
+                                        alt="TR"
+                                        class="flag-icon"
+                                    />
+                                    tanos - Fun commands, AI, Economic Commands,
+                                    Patch up, Dynamic text, Credits, NSO Images,
+                                    Moderation, etc.
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://flagcdn.com/16x12/de.png"
+                                        alt="DE"
+                                        class="flag-icon"
+                                    />
+                                    .Beelze. - Partial Economic commands
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <h2>TS Bot</h2>
+                        <p>A Discord bot that does it all</p>
+                    </div>
+                    <div class="footer-links">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#commands">Commands</a></li>
+                            <li><a href="#about">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social">
+                        <h3>Connect</h3>
+                        <div class="social-icons">
+                            <a
+                                href="https://discord.gg/39NTGfgtFJ"
+                                class="discord"
+                                ><i class="fab fa-discord"></i
+                            ></a>
+                            <a
+                                href="https://github.com/art3m4ik3/trissan-sempai-website"
+                                class="github"
+                                ><i class="fab fa-github"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>
+                        TS Discord Bot &copy; 2024 -
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/script.js"></script>
+        <script src="js/commands.js"></script>
+    </body>
+</html>
