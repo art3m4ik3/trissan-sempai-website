@@ -485,64 +485,6 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
         },
         {
-            name: "play",
-            category: "music",
-            description: "Play music from YouTube or other supported services",
-            usage: "/play <query> [autoplay]",
-            parameters: [
-                { name: "query", description: "Song name or URL to play" },
-                {
-                    name: "autoplay",
-                    description:
-                        "Enable autoplay for similar songs (default: true)",
-                },
-            ],
-        },
-        {
-            name: "queue",
-            category: "music",
-            description: "Show the current queue",
-            usage: "/queue",
-            parameters: [],
-        },
-        {
-            name: "skip",
-            category: "music",
-            description: "Skip the current track",
-            usage: "/skip",
-            parameters: [],
-        },
-        {
-            name: "nightcore",
-            category: "music",
-            description: "Toggle nightcore filter",
-            usage: "/nightcore",
-            parameters: [],
-        },
-        {
-            name: "pause",
-            category: "music",
-            description: "Pause/Resume the current track",
-            usage: "/pause",
-            parameters: [],
-        },
-        {
-            name: "stop",
-            category: "music",
-            description: "Stop playing and clear the queue",
-            usage: "/stop",
-            parameters: [],
-        },
-        {
-            name: "volume",
-            category: "music",
-            description: "Set the volume (0-100)",
-            usage: "/volume <value>",
-            parameters: [
-                { name: "value", description: "Volume level (0-100)" },
-            ],
-        },
-        {
             name: "send_ticket",
             category: "utility",
             description: "Send the ticket creation embed",
@@ -594,6 +536,46 @@ document.addEventListener("DOMContentLoaded", () => {
                     name: "user",
                     description:
                         "The user to show details for. Leave empty for your own details",
+                },
+            ],
+        },
+        {
+            name: "messages count",
+            category: "utility",
+            description: "Shows message count for a user",
+            usage: "/messages count [user]",
+            parameters: [
+                {
+                    name: "user",
+                    description: "The user to check message count for (optional)",
+                },
+            ],
+        },
+        {
+            name: "messages leaderboard",
+            category: "utility",
+            description: "Shows the message count leaderboard",
+            usage: "/messages leaderboard <period>",
+            parameters: [
+                {
+                    name: "period",
+                    description: "Select period (daily/weekly/monthly/total)",
+                },
+            ],
+        },
+        {
+            name: "messages set",
+            category: "utility",
+            description: "Set message count for a user (Admin only)",
+            usage: "/messages set <count> [user]",
+            parameters: [
+                {
+                    name: "count",
+                    description: "New message count",
+                },
+                {
+                    name: "user",
+                    description: "The user to set count for (optional)",
                 },
             ],
         },

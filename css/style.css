@@ -317,7 +317,7 @@ header .container {
 }
 
 .command-list:not(.expanded)::after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: 0;
     left: 0;
@@ -400,9 +400,6 @@ header .container {
 .command-category.utility {
     background-color: var(--warning-color);
     color: var(--dark-color);
-}
-.command-category.music {
-    background-color: #aa8ed6;
 }
 .command-category.leveling {
     background-color: #f99e4c;
@@ -561,7 +558,7 @@ footer {
 }
 
 .social-icons a.discord:hover {
-    background-color: #5865F2;
+    background-color: #5865f2;
 }
 
 .social-icons a.github:hover {
@@ -569,7 +566,7 @@ footer {
 }
 
 .social-icons a.twitter:hover {
-    background-color: #1DA1F2;
+    background-color: #1da1f2;
 }
 
 .footer-bottom {
